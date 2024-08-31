@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LuanTravel - Agencia de Viajes</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">LuanTravel</div>
+            <button class="menu-toggle" aria-label="Abrir menú">
+                <i class="fas fa-bars"></i>
+            </button>
+            <ul class="nav-menu">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#nosotros">Nosotros</a></li>
+                <li class="dropdown">
+                    <a href="#tour-paquetes">Tour y Paquetes</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#arequipa">Arequipa</a></li>
+                        <li><a href="#cusco">Cusco</a></li>
+                        <li><a href="#puno">Puno</a></li>
+                    </ul>
+                </li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <div class="carousel">
+        <div class="carousel-inner">
+            <div class="slide active" style="background-image: url('images/banner.jpg');"></div>
+            <div class="slide" style="background-image: url('images/bannerPuno.jpg');"></div>
+            <div class="slide" style="background-image: url('images/bannerArequipa.jpg');"></div>
+        </div>
+        <div class="carousel-content">
+            <h2>Descubre el mundo con LuanTravel</h2>
+            <a href="#tour-paquetes" class="btn">Ver paquetes</a>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
