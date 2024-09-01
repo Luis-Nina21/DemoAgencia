@@ -201,4 +201,24 @@ nav {
 
 /*--------------ESTE SON LOS ESTILOS DEL CARRUCEL DE TARJETAS ---------------*/
 
+.card {
+    margin-bottom: 15px;
+  }
+  
+  .card-img {
+    height: 200px; /* Ajusta la altura según tu preferencia */
+    object-fit: cover;
+  }
+  
+  .card-title {
+    font-size: 1rem;
+  }
+  
+  .card-text {
+    font-size: 0.875rem;
+  }
 
+  .container{
+    margin: 20px;
+  }
+  
