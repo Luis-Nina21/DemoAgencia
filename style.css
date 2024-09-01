@@ -59,6 +59,7 @@ nav {
 .nav-menu li a:hover {
     background-color: rgba(0, 0, 0, 0.1);
     color: #1a1a1a;
+
 }
 
 .dropdown-menu {
@@ -75,7 +76,11 @@ nav {
 
 .dropdown-menu li {
     margin: 5px 0;
+    list-style: none;
+    padding: 10px;
+
 }
+
 
 .dropdown:hover .dropdown-menu {
     display: block;
@@ -192,3 +197,8 @@ nav {
         font-size: 0.9em;
     }
 }
+
+
+/*--------------ESTE SON LOS ESTILOS DEL CARRUCEL DE TARJETAS ---------------*/
+
+
